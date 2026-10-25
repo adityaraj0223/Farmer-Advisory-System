@@ -58,6 +58,8 @@ from fastapi.responses import FileResponse
 
 frontend_dist = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist"))
 
+from fastapi import HTTPException
+
 if os.path.exists(frontend_dist):
     assets_dir = os.path.join(frontend_dist, "assets")
     if os.path.exists(assets_dir):
@@ -66,7 +68,7 @@ if os.path.exists(frontend_dist):
     @app.get("/{full_path:path}")
     async def serve_spa(full_path: str):
         if full_path.startswith("api") or full_path == "docs" or full_path == "openapi.json":
-            return None
+            raise HTTPException(status_code=404, detail="API route not found")
         file_path = os.path.join(frontend_dist, full_path)
         if full_path and os.path.isfile(file_path):
             return FileResponse(file_path)
