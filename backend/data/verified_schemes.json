@@ -1,0 +1,173 @@
+[
+  {
+    "id": "pm-kisan",
+    "title": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Income Support",
+    "department": "Ministry of Agriculture and Farmers Welfare, Govt of India",
+    "benefit": "₹6,000 per year directly transferred to bank accounts in 3 equal four-monthly installments of ₹2,000 each.",
+    "eligibility": "All landholding farmer families with cultivable landholding in their names, subject to statutory exclusion criteria (e.g. constitutional post holders, institutional landholders, income tax payers).",
+    "exclusions": "Institutional landholders, serving or retired government officers/employees, individuals who paid income tax in last assessment year, doctors, engineers, lawyers, CAs.",
+    "documents": [
+      "Aadhaar Card (Mandatory)",
+      "Land Ownership Record (Khatauni / RoR / Jamabandi)",
+      "Active Aadhaar-linked Bank Account Passbook",
+      "Mobile number linked to Aadhaar"
+    ],
+    "how_to_apply_steps": [
+      "1. Verify that your Aadhaar card is linked to your bank account and active mobile number.",
+      "2. Have your latest land ownership record (Khatauni) and Aadhaar number ready.",
+      "3. Open the official PM-KISAN portal (pmkisan.gov.in) and locate the 'Farmers Corner' section.",
+      "4. Click on 'New Farmer Registration', select Rural or Urban, and enter your Aadhaar and mobile number.",
+      "5. Enter the OTP received, fill your state, district, sub-district, village, and survey/khasra land numbers.",
+      "6. Submit the application, save the registration reference number, and track status via 'Beneficiary Status' on the portal."
+    ],
+    "official_portal_url": "https://pmkisan.gov.in/",
+    "application_mode": "Online (Self / CSC) & State Nodal Officer",
+    "helpline": "155261 / 011-24300606",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  },
+  {
+    "id": "pmfby",
+    "title": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "category": "Crop Insurance",
+    "department": "Department of Agriculture, Cooperation & Farmers Welfare",
+    "benefit": "Comprehensive crop insurance covering non-preventable natural risks (drought, flood, pests, post-harvest losses). Farmers pay nominal premium: 2% for Kharif crops, 1.5% for Rabi crops, and 5% for Annual Commercial/Horticultural crops.",
+    "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops in notified areas are eligible for coverage.",
+    "exclusions": "Losses arising out of war, nuclear risks, malicious damage, preventable pest neglect, or theft are excluded.",
+    "documents": [
+      "Land Possession Certificate (LPC) or Land Revenue Receipt",
+      "Sowing Certificate / Declaration issued by Patwari / Village Officer",
+      "Bank Account details (Passbook copy with IFSC)",
+      "Aadhaar Card",
+      "Tenant agreement / Land lease contract (for tenant farmers)"
+    ],
+    "how_to_apply_steps": [
+      "1. Ensure the crop being grown is a notified crop for your district in the current season.",
+      "2. Obtain a Sowing Certificate or self-declaration counter-signed by the local agriculture department/patwari.",
+      "3. Visit the official PMFBY National Crop Insurance Portal (pmfby.gov.in).",
+      "4. Click on 'Farmer Corner' -> 'Apply for Crop Insurance by yourself' or visit your bank branch / nearest CSC center.",
+      "5. Fill in crop details, area sown in hectares, bank account details, and upload supporting land records.",
+      "6. Pay the farmer share of the premium online or via your Kisan Credit Card bank account before the cut-off date (usually July 31 for Kharif, Dec 31 for Rabi)."
+    ],
+    "official_portal_url": "https://pmfby.gov.in/",
+    "application_mode": "Online Portal, Commercial Banks, RRBs, CSCs",
+    "helpline": "14447 (Kisan Call Center / Insurance Helpline)",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  },
+  {
+    "id": "kcc",
+    "title": "Kisan Credit Card (KCC)",
+    "category": "Credit & Finance",
+    "department": "Reserve Bank of India & NABARD",
+    "benefit": "Adequate and timely institutional credit up to ₹3 Lakhs at a concessional interest rate of 4% per annum (with prompt repayment incentive of 3% on 7% base rate). Flexible withdrawal and repayment tied to harvest cycles.",
+    "eligibility": "All individual farmers/joint borrowers who are owner cultivators, tenant farmers, oral lessees, sharecroppers, and Self Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers.",
+    "exclusions": "Defaulters with outstanding non-performing loans in other commercial banks until rectified.",
+    "documents": [
+      "Application Form duly filled",
+      "Proof of identity: Aadhaar Card / Voter ID / PAN Card",
+      "Proof of address: Aadhaar Card / Electricity Bill / Ration Card",
+      "Land record documents certified by revenue authority",
+      "Cropping pattern / acreage certificate"
+    ],
+    "how_to_apply_steps": [
+      "1. Download the one-page simplified KCC application form from the official PM-KISAN or NABARD portal.",
+      "2. Fill in basic personal details, PM-KISAN beneficiary status ID, landholding details, and requested credit limit.",
+      "3. Attach copies of Aadhaar, land records (Khatauni), and latest land tax receipt.",
+      "4. Submit the physical form to your nearest nationalized, regional rural (RRB), or cooperative bank branch.",
+      "5. Alternatively, apply through digital agricultural lending platforms offered by SBI YONO Krishi or NABARD partner banks.",
+      "6. Banks are mandated to issue the KCC card within 14 days of receiving a complete application."
+    ],
+    "official_portal_url": "https://www.myscheme.gov.in/schemes/kcc",
+    "application_mode": "Public Sector Banks, RRBs, Cooperative Banks, Online Banking Portals",
+    "helpline": "1800 180 1551",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  },
+  {
+    "id": "pmksy",
+    "title": "PMKSY (Pradhan Mantri Krishi Sinchayee Yojana)",
+    "category": "Irrigation & Water",
+    "department": "Ministry of Agriculture & Farmers Welfare / Ministry of Jal Shakti",
+    "benefit": "Financial subsidy of 45% to 55% for installing micro-irrigation systems (Drip and Sprinkler systems) under 'Per Drop More Crop' (PDMC), drastically saving water and fertilizer costs while boosting yields.",
+    "eligibility": "All categories of farmers having cultivable land and an assured water source are eligible. Small and marginal farmers receive higher subsidy assistance (up to 55%).",
+    "exclusions": "Land with no accessible water source or where micro-irrigation subsidies were availed within the preceding 7 years on the same plot.",
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership Documents (7/12 extract / Khatauni)",
+      "Water source certificate / electricity connection bill for tube-well/well",
+      "Bank Passbook copy with IFSC",
+      "Soil and water testing report (if requested by district office)"
+    ],
+    "how_to_apply_steps": [
+      "1. Ensure you have cultivable land with a functional water source (borewell, open well, or farm pond).",
+      "2. Visit the official PMKSY / PDMC portal or your state's Horticulture/Agriculture department portal (e.g., Mahadbt in MH, UP Agriculture, or state DBTs).",
+      "3. Register using your Aadhaar and mobile number, then select the 'Micro Irrigation (Drip/Sprinkler)' component.",
+      "4. Choose an empanelled manufacturer/supplier and submit the online application.",
+      "5. An agricultural officer or field surveyor will conduct a pre-inspection of the farm plot.",
+      "6. Upon approval, the system is installed, post-inspection is completed, and the subsidy is credited directly via DBT."
+    ],
+    "official_portal_url": "https://pmksy.gov.in/",
+    "application_mode": "State DBT Agriculture Portals & District Horticulture Offices",
+    "helpline": "011-23383395",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  },
+  {
+    "id": "enam",
+    "title": "e-NAM (National Agriculture Market)",
+    "category": "Mandi & Trading",
+    "department": "Small Farmers' Agribusiness Consortium (SFAC)",
+    "benefit": "Pan-India electronic trading portal networking existing APMC mandis to create a unified national market. Enables transparent price discovery, competitive bidding from national buyers, and online digital payment settlement directly to farmer accounts.",
+    "eligibility": "Any Indian farmer producing agricultural commodities desiring to trade through connected APMC mandis.",
+    "exclusions": "None for individual farmers selling their own produce.",
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account details (Passbook / Cancelled Cheque)",
+      "Mobile number for SMS lot alerts and OTPs",
+      "Mandi gate entry slip upon commodity arrival"
+    ],
+    "how_to_apply_steps": [
+      "1. Open the official e-NAM portal (enam.gov.in) and click on 'Registration'.",
+      "2. Select Registration Type as 'Farmer' and choose your State and local APMC Mandi.",
+      "3. Enter your Name, Mobile Number, Aadhaar Number, and Bank details for direct payments.",
+      "4. Alternatively, register directly at the registration counter / gate entry of any e-NAM integrated APMC Mandi.",
+      "5. Bring your produce to the mandi gate to receive a lot identification tag with digital weighing and quality assaying.",
+      "6. Watch live e-bidding online; approve the highest bid to receive electronic payment directly into your bank account within 24 hours."
+    ],
+    "official_portal_url": "https://enam.gov.in/",
+    "application_mode": "Online Web Portal, e-NAM Mobile App, APMC Mandi Registration Counters",
+    "helpline": "1800 270 0224",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  },
+  {
+    "id": "pkvy",
+    "title": "PKVY (Paramparagat Krishi Vikas Yojana)",
+    "category": "Organic Farming",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "benefit": "Financial assistance of ₹50,000 per hectare over 3 years, of which ₹31,000/ha is directly provided for organic inputs (bio-fertilizers, bio-pesticides, neem cake, vermicompost) and remaining for PGS certification and value addition.",
+    "eligibility": "Farmers willing to form clusters of 20 hectares or 50 farmers to practice certified organic farming without chemical inputs.",
+    "exclusions": "Individual farmers with isolated plots unable to form or join an organic cluster under PGS-India standards.",
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership Records",
+      "Cluster membership declaration and resolution",
+      "Bank account details linked to Aadhaar"
+    ],
+    "how_to_apply_steps": [
+      "1. Form or join a group of nearby farmers forming a 20-50 hectare contiguous cluster.",
+      "2. Contact the local Block Agriculture Officer (BAO) or District Nodal Officer for PKVY.",
+      "3. Register the cluster on the Jaivik Kheti portal (jaivikkheti.in) or PGS-India portal.",
+      "4. Formulate the cluster action plan and submit KYC details of all participating farmers.",
+      "5. Undergo training and baseline soil testing conducted by the regional council.",
+      "6. Receive input subsidies via DBT in phase milestones and obtain PGS-India Green / Organic certification."
+    ],
+    "official_portal_url": "https://pgsindia-ncof.gov.in/",
+    "application_mode": "Cluster Formation via District Agriculture Office / Jaivik Kheti Portal",
+    "helpline": "0120-2764906",
+    "last_verified_date": "2026-03-01",
+    "status": "Active"
+  }
+]

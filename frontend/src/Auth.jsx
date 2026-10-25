@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Leaf, Lock, Mail, Smartphone, ArrowRight, ShieldCheck, CreditCard, ChevronLeft, Bot, CloudRain, Sprout, CheckCircle, Smartphone as PhoneIcon } from 'lucide-react';
+import { api } from './services/api';
 
 export default function AuthFlow({ onLogin }) {
   const [view, setView] = useState('welcome'); // welcome, login, signup, trial, payment
+  const [phoneOrEmail, setPhoneOrEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Animation variants
   const pageVariants = {
@@ -12,12 +15,38 @@ export default function AuthFlow({ onLogin }) {
     exit: { opacity: 0, y: -20, transition: { duration: 0.3 } }
   };
 
-  const handleGuest = () => {
-    onLogin({ role: 'guest', name: 'Demo Farmer' });
+  const handleGuest = async () => {
+    try {
+      const res = await api.auth.guest();
+      onLogin({
+        token: res.access_token,
+        role: res.user.role,
+        name: res.user.name,
+        phone: res.user.phone,
+        location: res.user.location,
+        farm_size_acres: res.user.farm_size_acres
+      });
+    } catch (e) {
+      onLogin({ role: 'guest', name: 'Demo Farmer (Offline Mode)' });
+    }
   };
 
-  const completeLogin = () => {
-    onLogin({ role: 'premium', name: 'Kisan Kumar', trialEnd: Date.now() + 30 * 24 * 60 * 60 * 1000 });
+  const completeLogin = async (name = 'Kisan Kumar') => {
+    try {
+      const ident = phoneOrEmail.trim() || name;
+      const res = await api.auth.login({ identifier: ident });
+      onLogin({
+        token: res.access_token,
+        role: res.user.role,
+        name: res.user.name,
+        phone: res.user.phone,
+        location: res.user.location,
+        farm_size_acres: res.user.farm_size_acres,
+        trialEnd: Date.now() + 30 * 24 * 60 * 60 * 1000
+      });
+    } catch (e) {
+      onLogin({ role: 'premium', name: name, trialEnd: Date.now() + 30 * 24 * 60 * 60 * 1000 });
+    }
   };
 
   const handlePayment = (method) => {
@@ -29,6 +58,7 @@ export default function AuthFlow({ onLogin }) {
       }, 1500);
     }, 2000);
   };
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-100 to-green-50 flex items-center justify-center p-4 font-sans relative overflow-hidden">

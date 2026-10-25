@@ -1,0 +1,106 @@
+[
+  {
+    "id": "kb_wheat_yellow_rust",
+    "topic": "Wheat Yellow Rust (Puccinia striiformis)",
+    "crop": "Wheat",
+    "category": "Disease Management",
+    "symptoms": "Yellow pustules arranged in linear stripes/striping along leaf veins. Dust of yellow powder comes off on fingers when touched.",
+    "favorable_conditions": "Cool and humid weather (temperatures between 10°C to 15°C with heavy morning dew or light showers).",
+    "prevention_and_treatment": [
+      "Grow resistant varieties such as HD 3086, DBW 187, DBW 222, PBW 725, or Unnat PBW 343.",
+      "Monitor fields regularly in January-February in Northern India (Punjab, Haryana, Tarai region).",
+      "Chemical control: Spray Propiconazole 25% EC (Tilt) @ 1 ml per liter of water (200 ml in 200 liters of water per acre) or Tebuconazole 25.9% EC @ 1 ml/L at first appearance.",
+      "Avoid excess nitrogen fertilization which makes foliage succulent and prone to infection."
+    ],
+    "organic_treatment": [
+      "Spray 5% Neem Seed Kernel Extract (NSKE) or Sour Buttermilk (Chhachh) mixed with copper vessel extract as a preventive measure in early stages."
+    ],
+    "source": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR), Karnal"
+  },
+  {
+    "id": "kb_rice_blast",
+    "topic": "Rice Blast (Magnaporthe oryzae)",
+    "crop": "Rice / Paddy",
+    "category": "Disease Management",
+    "symptoms": "Spindle-shaped or eye-shaped lesions with brown or reddish-brown borders and grey/ash-colored centers on leaves. Neck rot causing empty panicles.",
+    "favorable_conditions": "High relative humidity (>90%), intermittent drizzle, night temperatures around 20-24°C, excessive nitrogenous fertilizers.",
+    "prevention_and_treatment": [
+      "Seed treatment with Tricyclazole 75% WP @ 2g/kg of seed before sowing.",
+      "Avoid excessive split doses of Urea; maintain balanced N:P:K (120:60:40 kg/ha).",
+      "Foliar spray of Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane 40% EC @ 1.5ml/L at early tillering and panicle emergence stage."
+    ],
+    "organic_treatment": [
+      "Apply Pseudomonas fluorescens powder @ 10g/L or bio-agent Trichoderma viride seed treatment."
+    ],
+    "source": "ICAR - National Rice Research Institute (NRRI), Cuttack"
+  },
+  {
+    "id": "kb_tomato_early_late_blight",
+    "topic": "Tomato Early Blight & Late Blight",
+    "crop": "Tomato",
+    "category": "Disease Management",
+    "symptoms": "Early Blight: Concentric rings (target board pattern) on older leaves. Late Blight: Water-soaked dark brown irregular lesions with white fuzzy mold under humid conditions.",
+    "favorable_conditions": "High moisture, cloudy days, cool temperatures (15-22°C for Late Blight; 24-29°C for Early Blight).",
+    "prevention_and_treatment": [
+      "Ensure proper crop spacing (at least 60x45 cm) and staking for good airflow.",
+      "Spray Mancozeb 75% WP @ 2.5g/L or Chlorothalonil 75% WP @ 2g/L preventively.",
+      "Curative action for Late Blight: Spray Metalaxyl 8% + Mancozeb 64% WP (Ridomil MZ) @ 2.5g/L water."
+    ],
+    "organic_treatment": [
+      "Spray Copper Hydroxide @ 2g/L or Trichoderma harzianum; prune bottom leaves touching the soil."
+    ],
+    "source": "Indian Institute of Horticultural Research (IIHR), Bengaluru"
+  },
+  {
+    "id": "kb_cotton_pink_bollworm",
+    "topic": "Cotton Pink Bollworm (Pectinophora gossypiella)",
+    "crop": "Cotton",
+    "category": "Pest Management",
+    "symptoms": "Rosetted flowers, young bolls shed, lint stained brown, punctured bolls with internal larvae feeding on seeds.",
+    "favorable_conditions": "Mid to late season (60-120 days after sowing) with dry warm intervals.",
+    "prevention_and_treatment": [
+      "Install Pheromone traps @ 5 traps/acre for monitoring and 15 traps/acre for mass trapping.",
+      "Spray Profenophos 50% EC @ 2ml/L or Emamectin Benzoate 5% SG @ 0.5g/L when trap catches exceed 8 moths/trap/night.",
+      "Do not extend the crop duration beyond 150-160 days."
+    ],
+    "organic_treatment": [
+      "Release Trichogramma bactrae egg parasitoids @ 60,000/acre at weekly intervals starting at flowering; spray 5% Neem oil (1500 ppm) @ 5ml/L."
+    ],
+    "source": "ICAR - Central Institute for Cotton Research (CICR), Nagpur"
+  },
+  {
+    "id": "kb_soil_fertility_npk",
+    "topic": "Soil Health & Scientific Fertilizer Management (NPK)",
+    "crop": "General / All Crops",
+    "category": "Soil & Nutrition",
+    "symptoms": "Nitrogen deficiency causes general yellowing of older leaves. Phosphorus deficiency causes purplish foliage and stunted roots. Potassium deficiency causes leaf margin scorching.",
+    "favorable_conditions": "All seasons; dependent on Soil Health Card testing.",
+    "prevention_and_treatment": [
+      "Conduct soil testing before every cropping season under the Soil Health Card scheme.",
+      "Standard balanced recommendation: Cereals (4:2:1 NPK ratio), Pulses (1:2:1 NPK ratio with Rhizobium inoculant).",
+      "Incorporate 2-3 tonnes of decomposed Farm Yard Manure (FYM) or Vermicompost per acre 2-3 weeks before sowing.",
+      "Apply full Phosphorus and Potassium at sowing; split Nitrogen into 2-3 doses (basal, tillering, jointing/flowering)."
+    ],
+    "organic_treatment": [
+      "Use green manuring with Sesbania (Dhaincha) or Sunhemp; apply Azotobacter/Azospirillum and Phosphate Solubilizing Bacteria (PSB) @ 250g/acre."
+    ],
+    "source": "Department of Agricultural Research and Education (DARE) & IARI, New Delhi"
+  },
+  {
+    "id": "kb_micro_irrigation",
+    "topic": "Smart Irrigation & Water Management",
+    "crop": "Wheat, Sugarcane, Vegetables, Orchards",
+    "category": "Irrigation Management",
+    "symptoms": "Water stress symptoms: wilting during midday, leaf curling, premature flower and fruit drop.",
+    "favorable_conditions": "Dry spells, high temperature periods, summer crops.",
+    "prevention_and_treatment": [
+      "Adopt Drip Irrigation for row crops (vegetables, cotton, sugarcane) saving 40-60% water while improving yield by 20-30%.",
+      "Use Sprinkler Irrigation for closely spaced crops like wheat, mustard, pulses, and groundnut on undulating lands.",
+      "Irrigate wheat at critical physiological stages: 1. Crown Root Initiation (CRI) at 21 days (most critical), 2. Tillering (40-45 days), 3. Late jointing (60-65 days), 4. Flowering (80-85 days), 5. Milking (100-105 days)."
+    ],
+    "organic_treatment": [
+      "Apply organic straw or plastic mulching to reduce soil water evaporation and suppress weeds."
+    ],
+    "source": "Water Technology Centre, ICAR-IARI, New Delhi"
+  }
+]

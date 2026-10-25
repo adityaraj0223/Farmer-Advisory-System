@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: krishi-mitra-ai
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: "cd frontend && npm install && npm run build && cd .. && pip install --extra-index-url https://download.pytorch.org/whl/cpu -r backend/requirements.txt"
+    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: NODE_VERSION
+        value: 20.10.0
+      - key: PROJECT_NAME
+        value: "Krishi Mitra AI"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: AGMARKNET_API_KEY
+        sync: false
+      - key: SARVAM_API_KEY
+        sync: false
